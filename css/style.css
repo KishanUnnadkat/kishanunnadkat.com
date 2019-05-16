@@ -8,19 +8,15 @@ body {
 }
 
 .bodySection {
-    border-bottom: 5px solid black;
+    border-top: 5px solid black;
     height: 25%;
-    padding: 5%;
+    padding: 2.5% 1%;
     margin: 0px;
 }
 
 p {
     padding: 0px;
     margin: 0px;
-}
-
-#test {
-
 }
 
 #aboutMe {
@@ -47,9 +43,19 @@ h2 {
 }
 
 #navBar {
+    border-top: none;
     height: 5%;
 }
 
+
+#information {
+    background-color: #404040;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
 
 span {
     font-size: 1.25em;
@@ -62,16 +68,39 @@ span {
     color: white;
     max-width: 100%;
     max-height: 100%;
-    display: block;
+    display: table;
     background-image: url('../assets/mainDisplay.jpg');
     text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+#test {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #footer {
     color: white;
     background-color: black;
-    padding: 5%;
+    padding: 2.5%;
 }
 #footer p {
     text-align: center;
 }
+
+#information {
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    #footer p {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
