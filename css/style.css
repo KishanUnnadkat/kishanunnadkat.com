@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.bodySection {
+    border-bottom: 5px solid black;
+    height: 25%;
+    padding: 5%;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#test {
+
+}
+
+#aboutMe {
+    background-color: #18BC9C;
+    color: white;
+}
+
+h1, h2, p, span {
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    
+}
+
+#navBar {
+    height: 5%;
+}
+
+
+span {
+    font-size: 1.25em;
+    font-weight: 300;
+    color: white;
+}
+
+#details {
+    top: 50%;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-image: url('../assets/mainDisplay.jpg');
+    text-align: center;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    padding: 5%;
+}
+#footer p {
+    text-align: center;
+}
